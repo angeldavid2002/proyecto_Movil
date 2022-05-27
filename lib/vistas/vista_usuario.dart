@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class VistaUsuario extends StatelessWidget {
   const VistaUsuario({Key? key}) : super(key: key);
 
@@ -11,4 +10,3 @@ class VistaUsuario extends StatelessWidget {
     );
   }
 }
-
