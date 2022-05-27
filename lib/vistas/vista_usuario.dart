@@ -22,18 +22,21 @@ class PaginaInicio extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Color.fromRGBO(244, 48, 85, 1),
         leading: IconButton(
-            onPressed: () {Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (_) => VistaRol()),
-                            );},
-            icon: const Icon(Icons.home,color:Color.fromRGBO(253, 188, 89, 1)),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => VistaRol()),
+            );
+          },
+          icon: const Icon(Icons.home, color: Color.fromRGBO(253, 188, 89, 1)),
         ),
         title: TextFormField(
           style: TextStyle(color: Color.fromRGBO(253, 188, 89, 1)),
           decoration: InputDecoration(
             hintStyle: TextStyle(color: Color.fromRGBO(253, 188, 89, 1)),
             hintText: "Producto...",
-            prefixIcon: Icon(Icons.search,color: Color.fromRGBO(253, 188, 89, 1)),
+            prefixIcon:
+                Icon(Icons.search, color: Color.fromRGBO(253, 188, 89, 1)),
             enabledBorder: UnderlineInputBorder(
               borderSide: BorderSide(color: Color.fromRGBO(253, 188, 89, 1)),
             ),
@@ -48,7 +51,7 @@ class PaginaInicio extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {},
-            icon: const Icon(Icons.map,color:Color.fromRGBO(253, 188, 89, 1)),
+            icon: const Icon(Icons.map, color: Color.fromRGBO(253, 188, 89, 1)),
           )
         ],
       ),

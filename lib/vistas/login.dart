@@ -33,11 +33,12 @@ class _CamposState extends State<Campos> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Column(
+      child: ListView(
         //mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Container(
-            padding: EdgeInsets.only(top: 40.0, bottom: 6.0),
+            height: 350,
+            padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
             child: CircleAvatar(
               backgroundColor: Colors.transparent,
               backgroundImage: AssetImage('images/logotendero.png'),
@@ -45,7 +46,9 @@ class _CamposState extends State<Campos> {
             ),
           ),
           Container(
-            margin: EdgeInsets.fromLTRB(50, 1, 50, 20),
+            width: 400,
+            //height: 250,
+            margin: EdgeInsets.fromLTRB(50, 1, 50, 2),
             decoration: BoxDecoration(
               color: Color.fromRGBO(255, 255, 255, 1),
               borderRadius: BorderRadius.all(Radius.circular(15)),
