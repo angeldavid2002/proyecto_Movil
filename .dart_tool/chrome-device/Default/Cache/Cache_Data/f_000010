@@ -71,7 +71,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/f
         [_Location_name]: null,
         [_Location_column]: 26,
         [_Location_line]: 257,
-        [_Location_file]: "file:///C:/Users/USUARIO/OneDrive/Documentos/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
+        [_Location_file]: "file:///C:/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
       });
     },
     get C8() {
@@ -104,7 +104,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/f
         [_Location_name]: null,
         [_Location_column]: 24,
         [_Location_line]: 255,
-        [_Location_file]: "file:///C:/Users/USUARIO/OneDrive/Documentos/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
+        [_Location_file]: "file:///C:/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
       });
     },
     get C12() {
@@ -137,7 +137,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/f
         [_Location_name]: null,
         [_Location_column]: 22,
         [_Location_line]: 251,
-        [_Location_file]: "file:///C:/Users/USUARIO/OneDrive/Documentos/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
+        [_Location_file]: "file:///C:/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
       });
     },
     get C16() {
@@ -160,7 +160,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/f
         [_Location_name]: null,
         [_Location_column]: 13,
         [_Location_line]: 250,
-        [_Location_file]: "file:///C:/Users/USUARIO/OneDrive/Documentos/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
+        [_Location_file]: "file:///C:/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
       });
     },
     get C19() {
@@ -223,13 +223,13 @@ define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/f
         [_Location_name]: null,
         [_Location_column]: 12,
         [_Location_line]: 219,
-        [_Location_file]: "file:///C:/Users/USUARIO/OneDrive/Documentos/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
+        [_Location_file]: "file:///C:/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
       });
     }
   }, false);
   var C = Array(24).fill(void 0);
   var I = [
-    "file:///C:/Users/USUARIO/OneDrive/Documentos/flutter/packages/flutter/lib/src/material/circle_avatar.dart",
+    "file:///C:/flutter/packages/flutter/lib/src/material/circle_avatar.dart",
     "package:flutter/src/material/circle_avatar.dart"
   ];
   var child$ = dart.privateName(circle_avatar, "CircleAvatar.child");
@@ -430,7 +430,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/f
   dart.trackLibraries("packages/flutter/src/material/circle_avatar.dart", {
     "package:flutter/src/material/circle_avatar.dart": circle_avatar
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["circle_avatar.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAkFgB;;;;;;IAQD;;;;;;IASA;;;;;;IAQQ;;;;;;IAKA;;;;;;IAIK;;;;;;IAIA;;;;;;IAcZ;;;;;;IAgBA;;;;;;IAgBA;;;;;;;;AAYZ,UAAI,AAAO,uBAAW,AAAU,0BAAW,AAAU;AACnD,cAAsB,MAAE;;AAE1B,YAAO,AAAI,qBAAuB,OAAb,kBAAP,aAAU,sBAAH;IACvB;;;AAGE,UAAI,AAAO,uBAAW,AAAU,0BAAW,AAAU;AACnD,cAAsB,MAAE;;AAE1B,YAAO,AAAI,qBAAuB,OAAb,kBAAP,aAAU,sBAAH;IACvB;UAG0B;AACxB,WAAO,8BAAwB,OAAO;AACtB,kBAAc,gBAAG,OAAO;AAC9B,sBAA4C,AAAE,eAAlC,AAAM,AAAiB,KAAlB,8CAA6C;AACjE,qCAA2B;AAClC,UAAI,AAAyB,wBAAD;AAC1B,gBAAkB,gDAA0C,eAAf,AAAU,SAAD;;;AAEA,YAAlD,2BAA2B,AAAM,KAAD;AAChC;;;;AAEiD,YAAjD,2BAA2B,AAAM,KAAD;AAChC;;;YAEC,KAAI,AAAgB;AACzB,gBAAkB,gDAA0C,eAAf;;;AAEqB,YAA9D,YAAY,AAAU,SAAD,kBAAiB,AAAM,KAAD;AAC3C;;;;AAE6D,YAA7D,YAAY,AAAU,SAAD,kBAAiB,AAAM,KAAD;AAC3C;;;;AAGO,wBAAc;AACd,wBAAc;AAC3B,YAAO,6DACQ,uCACA,WAAW,YACZ,WAAW,YACX,WAAW,aACV,WAAW,cAEd,4CACE,6CACH,wBAAwB,SACxB,AAAgB,+BACnB,iDACwB,eAAf,gCACE,kCACG,yBAEd,aACY,oDAEI,AAAgB,+BAChC,6CACS,iDACiB,eAAf,gCACE,kCACG,+BAEE,+BAElB,aACC,AAAM,qBACP,OACA,6BACS,sCAGY,AAAY,0BAAT,OAAO,6BAA4B,cAChD,oCACC,AAAM,AAAU,KAAX,4BAA2B,AAAU,SAAD,iBACxC,sCACE,SAAS,SACJ,eAAL;IAMzB;;;QA1MO;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;;IATA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;UACK,AAAO,AAAQ,MAAT,YAAa,AAAU,SAAD,YAAY,AAAU,SAAD;UACjD,AAAwB,eAAT,YAAY,AAAuB,sBAAD;UACjD,AAAwB,eAAT,YAAY,AAAsB,sBAAA;AACxD,8DAAW,GAAG;;EAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;MA6FA,yCAAc;;;MAGd,4CAAiB;;;MAGjB,4CAAiB","file":"../../../../../../../../../../packages/flutter/src/material/circle_avatar.dart.lib.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["circle_avatar.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAkFgB;;;;;;IAQD;;;;;;IASA;;;;;;IAQQ;;;;;;IAKA;;;;;;IAIK;;;;;;IAIA;;;;;;IAcZ;;;;;;IAgBA;;;;;;IAgBA;;;;;;;;AAYZ,UAAI,AAAO,uBAAW,AAAU,0BAAW,AAAU;AACnD,cAAsB,MAAE;;AAE1B,YAAO,AAAI,qBAAuB,OAAb,kBAAP,aAAU,sBAAH;IACvB;;;AAGE,UAAI,AAAO,uBAAW,AAAU,0BAAW,AAAU;AACnD,cAAsB,MAAE;;AAE1B,YAAO,AAAI,qBAAuB,OAAb,kBAAP,aAAU,sBAAH;IACvB;UAG0B;AACxB,WAAO,8BAAwB,OAAO;AACtB,kBAAc,gBAAG,OAAO;AAC9B,sBAA4C,AAAE,eAAlC,AAAM,AAAiB,KAAlB,8CAA6C;AACjE,qCAA2B;AAClC,UAAI,AAAyB,wBAAD;AAC1B,gBAAkB,gDAA0C,eAAf,AAAU,SAAD;;;AAEA,YAAlD,2BAA2B,AAAM,KAAD;AAChC;;;;AAEiD,YAAjD,2BAA2B,AAAM,KAAD;AAChC;;;YAEC,KAAI,AAAgB;AACzB,gBAAkB,gDAA0C,eAAf;;;AAEqB,YAA9D,YAAY,AAAU,SAAD,kBAAiB,AAAM,KAAD;AAC3C;;;;AAE6D,YAA7D,YAAY,AAAU,SAAD,kBAAiB,AAAM,KAAD;AAC3C;;;;AAGO,wBAAc;AACd,wBAAc;AAC3B,YAAO,6DACQ,uCACA,WAAW,YACZ,WAAW,YACX,WAAW,aACV,WAAW,cAEd,4CACE,6CACH,wBAAwB,SACxB,AAAgB,+BACnB,iDACwB,eAAf,gCACE,kCACG,yBAEd,aACY,oDAEI,AAAgB,+BAChC,6CACS,iDACiB,eAAf,gCACE,kCACG,+BAEE,+BAElB,aACC,AAAM,qBACP,OACA,6BACS,sCAGY,AAAY,0BAAT,OAAO,6BAA4B,cAChD,oCACC,AAAM,AAAU,KAAX,4BAA2B,AAAU,SAAD,iBACxC,sCACE,SAAS,SACJ,eAAL;IAMzB;;;QA1MO;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;;IATA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;UACK,AAAO,AAAQ,MAAT,YAAa,AAAU,SAAD,YAAY,AAAU,SAAD;UACjD,AAAwB,eAAT,YAAY,AAAuB,sBAAD;UACjD,AAAwB,eAAT,YAAY,AAAsB,sBAAA;AACxD,8DAAW,GAAG;;EAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;MA6FA,yCAAc;;;MAGd,4CAAiB;;;MAGjB,4CAAiB","file":"../../../../../../../D:/packages/flutter/src/material/circle_avatar.dart.lib.js"}');
   // Exports:
   return {
     src__material__circle_avatar: circle_avatar

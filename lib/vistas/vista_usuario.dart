@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:proyecto_web/vistas/seleccion_rol.dart';
 
 class VistaUsuario extends StatelessWidget {
   const VistaUsuario({Key? key}) : super(key: key);
@@ -21,7 +22,10 @@ class PaginaInicio extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Color.fromRGBO(244, 48, 85, 1),
         leading: IconButton(
-            onPressed: () {},
+            onPressed: () {Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (_) => VistaRol()),
+                            );},
             icon: const Icon(Icons.home,color:Color.fromRGBO(253, 188, 89, 1)),
         ),
         title: TextFormField(
