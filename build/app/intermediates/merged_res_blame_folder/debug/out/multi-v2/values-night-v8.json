@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\universidad\\p movil\\flutter\\Proyecto\\proyecto_web\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "D:\\universidad\\p movil\\flutter\\Proyecto\\proyecto_Movil\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\universidad\\p movil\\flutter\\Proyecto\\proyecto_web\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\universidad\\p movil\\flutter\\Proyecto\\proyecto_Movil\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
