@@ -37,15 +37,15 @@ class _CamposState extends State<Campos> {
         //mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Container(
-            padding:EdgeInsets.only(top: 150.0, bottom: 50.0) ,
+            padding:EdgeInsets.only(top: 40.0, bottom: 6.0) ,
             child:CircleAvatar(
-              backgroundImage: NetworkImage(
-              'https://cdn-icons-png.flaticon.com/512/295/295128.png'),
-              radius: 90,
+              backgroundColor: Colors.transparent,
+                backgroundImage: AssetImage('images/logotendero.png'),
+              radius: 150,
             ),
           ),
           Container(
-            margin: EdgeInsets.fromLTRB(50, 5, 50, 20),
+            margin: EdgeInsets.fromLTRB(50, 1, 50, 20),
             decoration: BoxDecoration(
               color: Color.fromRGBO(255, 255, 255, 1),
               borderRadius: BorderRadius.all(Radius.circular(15)),
@@ -91,7 +91,6 @@ class _CamposState extends State<Campos> {
                       fixedSize: const Size(300, 50),
                     ),
                     onPressed: (){
-                      
                     }, 
                     child: Text('Entrar')),
                 ),
