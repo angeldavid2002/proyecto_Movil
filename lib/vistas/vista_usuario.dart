@@ -5,7 +5,7 @@ class VistaUsuario extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: PaginaInicio());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: PaginaInicio());
   }
 }
 
@@ -17,8 +17,36 @@ class PaginaInicio extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text("pagina inicio"),
+        backgroundColor: Color.fromRGBO(244, 48, 85, 1),
+        leading: IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.home,color:Color.fromRGBO(253, 188, 89, 1)),
+        ),
+        title: TextFormField(
+          style: TextStyle(color: Color.fromRGBO(253, 188, 89, 1)),
+          decoration: InputDecoration(
+            hintStyle: TextStyle(color: Color.fromRGBO(253, 188, 89, 1)),
+            hintText: "Producto...",
+            prefixIcon: Icon(Icons.search,color: Color.fromRGBO(253, 188, 89, 1)),
+            enabledBorder: UnderlineInputBorder(
+              borderSide: BorderSide(color: Color.fromRGBO(253, 188, 89, 1)),
+            ),
+            focusedBorder: UnderlineInputBorder(
+              borderSide: BorderSide(color: Color.fromRGBO(253, 188, 89, 1)),
+            ),
+            border: UnderlineInputBorder(
+              borderSide: BorderSide(color: Color.fromRGBO(253, 188, 89, 1)),
+            ),
+          ),
+        ),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.map,color:Color.fromRGBO(253, 188, 89, 1)),
+          )
+        ],
       ),
       body: Lista(),
     );
@@ -26,19 +54,89 @@ class PaginaInicio extends StatelessWidget {
 }
 
 class Lista extends StatelessWidget {
-  const Lista({
+  const Lista({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: <Widget>[
+          Text(
+            'Ofertas',
+            style: TextStyle(
+                fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black),
+          ),
+          Ofertas(),
+          Text(
+            'productos',
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          Card(
+            color: Color.fromRGBO(253, 188, 89, 1),
+            child: ListTile(
+                title: Text('Productos'),
+                subtitle: Text('Descripcion corta de los productos')),
+          ),
+          Card(
+            color: Color.fromRGBO(253, 188, 89, 1),
+            child: ListTile(
+                title: Text('Productos'),
+                subtitle: Text('Descripcion corta de los productos')),
+          ),
+          Card(
+            color: Color.fromRGBO(253, 188, 89, 1),
+            child: ListTile(
+                title: Text('Productos'),
+                subtitle: Text('Descripcion corta de los productos')),
+          ),
+          Card(
+            color: Color.fromRGBO(253, 188, 89, 1),
+            child: ListTile(
+                title: Text('Productos'),
+                subtitle: Text('Descripcion corta de los productos')),
+          ),
+          Card(
+            color: Color.fromRGBO(253, 188, 89, 1),
+            child: ListTile(
+                title: Text('Productos'),
+                subtitle: Text('Descripcion corta de los productos')),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class Ofertas extends StatelessWidget {
+  const Ofertas({
     Key? key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      itemBuilder: (BuildContext context, int index) {
-        return Card(
-          child: Image.network(
-              "https://image.shutterstock.com/image-vector/young-man-lodger-vector-illustration-260nw-654168382.jpg"),
-        );
-      },
+    return SizedBox(
+      height: 200.0,
+      child: ListView.builder(
+        physics: ClampingScrollPhysics(),
+        shrinkWrap: true,
+        scrollDirection: Axis.horizontal,
+        itemCount: 15,
+        itemBuilder: (BuildContext context, int index) => Card(
+          child: Container(
+            color: Color.fromRGBO(253, 188, 89, 1),
+            child: Center(
+                child: Text('Productos',
+                    style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white))),
+          ),
+        ),
+      ),
     );
   }
 }
