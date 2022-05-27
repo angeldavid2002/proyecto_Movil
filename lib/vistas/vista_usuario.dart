@@ -35,7 +35,8 @@ class Lista extends StatelessWidget {
     return ListView.builder(
       itemBuilder: (BuildContext context, int index) {
         return Card(
-          child: Image.network("https://image.shutterstock.com/image-vector/young-man-lodger-vector-illustration-260nw-654168382.jpg"),
+          child: Image.network(
+              "https://image.shutterstock.com/image-vector/young-man-lodger-vector-illustration-260nw-654168382.jpg"),
         );
       },
     );

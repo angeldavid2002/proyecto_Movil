@@ -1,6 +1,7 @@
 import 'dart:html';
 
 import 'package:flutter/material.dart';
+import 'package:proyecto_web/vistas/login.dart';
 
 class VistaRol extends StatefulWidget {
   VistaRol({Key? key}) : super(key: key);
@@ -49,7 +50,12 @@ class _VistaRolState extends State<VistaRol> {
                             primary: Color.fromRGBO(244, 48, 85, 1),
                             fixedSize: const Size(300, 50),
                           ),
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (_) => Login()),
+                            );
+                          },
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
