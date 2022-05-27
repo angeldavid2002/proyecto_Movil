@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:proyecto_web/vistas/seleccion_rol.dart';
 import 'package:proyecto_web/vistas/vista_usuario.dart';
 
 void main() {
@@ -14,8 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: VistaUsuario(),
+      home: VistaRol(),
     );
   }
 }
-
