@@ -1,9 +1,14 @@
-2022/05/27-12:22:58.880 50a0 Log #3: 2 ops saved to Table #7 OK
-2022/05/27-12:22:58.882 50a0 Archiving C:\Users\Angel\AppData\Local\Temp\flutter_tools.5cc0c1ce\flutter_tools_chrome_device.b4b4ea0\Default\Site Characteristics Database/000003.log: OK
-2022/05/27-12:22:58.898 50a0 Log #6: 1 ops saved to Table #8 OK
-2022/05/27-12:22:58.901 50a0 Archiving C:\Users\Angel\AppData\Local\Temp\flutter_tools.5cc0c1ce\flutter_tools_chrome_device.b4b4ea0\Default\Site Characteristics Database/000006.log: OK
-2022/05/27-12:22:58.902 50a0 Table #4: 2 entries OK
-2022/05/27-12:22:58.902 50a0 Table #7: 2 entries OK
-2022/05/27-12:22:58.902 50a0 Table #8: 1 entries OK
-2022/05/27-12:22:58.904 50a0 Archiving C:\Users\Angel\AppData\Local\Temp\flutter_tools.5cc0c1ce\flutter_tools_chrome_device.b4b4ea0\Default\Site Characteristics Database/MANIFEST-000001: OK
-2022/05/27-12:22:58.909 50a0 **** Repaired leveldb C:\Users\Angel\AppData\Local\Temp\flutter_tools.5cc0c1ce\flutter_tools_chrome_device.b4b4ea0\Default\Site Characteristics Database; recovered 3 files; 544 bytes. Some data may have been lost. ****
+2022/05/30-23:04:55.281 3dec Log #3: 2 ops saved to Table #11 OK
+2022/05/30-23:04:55.291 3dec Archiving C:\Users\Angel\AppData\Local\Temp\flutter_tools.7974ba0b\flutter_tools_chrome_device.5cf72b08\Default\Site Characteristics Database/000003.log: OK
+2022/05/30-23:04:55.293 3dec Log #6: 1 ops saved to Table #12 OK
+2022/05/30-23:04:55.294 3dec Archiving C:\Users\Angel\AppData\Local\Temp\flutter_tools.7974ba0b\flutter_tools_chrome_device.5cf72b08\Default\Site Characteristics Database/000006.log: OK
+2022/05/30-23:04:55.296 3dec Log #10: 1 ops saved to Table #13 OK
+2022/05/30-23:04:55.297 3dec Archiving C:\Users\Angel\AppData\Local\Temp\flutter_tools.7974ba0b\flutter_tools_chrome_device.5cf72b08\Default\Site Characteristics Database/000010.log: OK
+2022/05/30-23:04:55.297 3dec Table #4: 2 entries OK
+2022/05/30-23:04:55.297 3dec Table #7: 2 entries OK
+2022/05/30-23:04:55.297 3dec Table #8: 1 entries OK
+2022/05/30-23:04:55.298 3dec Table #11: 2 entries OK
+2022/05/30-23:04:55.298 3dec Table #12: 1 entries OK
+2022/05/30-23:04:55.298 3dec Table #13: 1 entries OK
+2022/05/30-23:04:55.303 3dec Archiving C:\Users\Angel\AppData\Local\Temp\flutter_tools.7974ba0b\flutter_tools_chrome_device.5cf72b08\Default\Site Characteristics Database/MANIFEST-000001: OK
+2022/05/30-23:04:55.307 3dec **** Repaired leveldb C:\Users\Angel\AppData\Local\Temp\flutter_tools.7974ba0b\flutter_tools_chrome_device.5cf72b08\Default\Site Characteristics Database; recovered 6 files; 1059 bytes. Some data may have been lost. ****

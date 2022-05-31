@@ -19,16 +19,16 @@ define("main_module.bootstrap", ["web_entrypoint.dart", "dart_sdk"], function(ap
          main();
       });
     }
-    window.$dartAppId = "i3+tnldyb1O77xfiGBcQHw==";
+    window.$dartAppId = "JEHMb/E27ZxzwoNDrhu83w==";
 window.$dartReloadConfiguration = "ReloadConfiguration.none";
 window.$dartModuleStrategy = "require-js";
 window.$loadModuleConfig = require;
 window.$dwdsVersion = "11.0.2";
-window.$dwdsDevHandlerPath = "http://localhost:52025/$dwdsSseHandler";
+window.$dwdsDevHandlerPath = "http://localhost:53821/$dwdsSseHandler";
 window.$dwdsEnableDevtoolsLaunch = true;
 window.$dartEntrypointPath = "main_module.bootstrap.js";
 window.$requireLoader.forceLoadModule("dwds/src/injected/client");
-window.$dartExtensionUri = "http://127.0.0.1:52029/$debug";
+window.$dartExtensionUri = "http://127.0.0.1:53823/$debug";
 
   } else {
     if(window.$dartMainExecuted){
@@ -439,8 +439,7 @@ let modulePaths = {
  "packages/flutter/src/material/arc.dart": "packages/flutter/src/material/arc.dart.lib",
  "packages/flutter/src/material/app.dart": "packages/flutter/src/material/app.dart.lib",
  "packages/flutter/src/material/animated_icons.dart": "packages/flutter/src/material/animated_icons.dart.lib",
- "packages/flutter/src/material/about.dart": "packages/flutter/src/material/about.dart.lib",
- "packages/proyecto_web/vistas/login.dart": "packages/proyecto_web/vistas/login.dart.lib"
+ "packages/flutter/src/material/about.dart": "packages/flutter/src/material/about.dart.lib"
 };
 let moduleNames = {
  "web_entrypoint.dart.lib": "web_entrypoint.dart",
@@ -801,8 +800,7 @@ let moduleNames = {
  "packages/flutter/src/material/arc.dart.lib": "packages/flutter/src/material/arc.dart",
  "packages/flutter/src/material/app.dart.lib": "packages/flutter/src/material/app.dart",
  "packages/flutter/src/material/animated_icons.dart.lib": "packages/flutter/src/material/animated_icons.dart",
- "packages/flutter/src/material/about.dart.lib": "packages/flutter/src/material/about.dart",
- "packages/proyecto_web/vistas/login.dart.lib": "packages/proyecto_web/vistas/login.dart"
+ "packages/flutter/src/material/about.dart.lib": "packages/flutter/src/material/about.dart"
 };
 if(!window.$requireLoader) {
    window.$requireLoader = {

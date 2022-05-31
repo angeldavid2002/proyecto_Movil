@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto_web/vistas/seleccion_rol.dart';
+import 'package:proyecto_web/Peticiones/Peticioneshttp.dart';
+import 'package:proyecto_web/modelos/usuario.dart';
+import 'package:http/http.dart' as http;
+import 'package:proyecto_web/vistas/vista_usuario.dart';
+
+List<Usuario> lista = [];
 
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);
@@ -95,14 +100,22 @@ class _CamposState extends State<Campos> {
                         fixedSize: const Size(300, 50),
                       ),
                       onPressed: () {
-                        (validar())
-                            ? Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (_) => (VistaRol()),
-                                ),
-                              )
-                            : Container();
+                        validarLogin(http.Client(), controluser.text,
+                                controlpassword.text)
+                            .then((response) {
+                          lista = response.toList();
+                          if (lista.length > 0) {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (_) => VistaUsuario()),
+                            );
+                          } else {
+                            Alerta(
+                              context,
+                              "el usuario o la contraseña son incorrectos"
+                            );
+                          }
+                        });
                       },
                       child: Text(
                         'Entrar',
@@ -184,4 +197,27 @@ class _CamposState extends State<Campos> {
     setState(() {});
     return validado;
   }
+}
+
+///////////////////////////////////////
+void Alerta(BuildContext context, String texto) {
+  showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+            title: Text("Alerta"),
+            content: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Center(child: Text(texto)),
+              ],
+            ),
+            actions: [
+              FlatButton(
+                child: Text('ok'),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              )
+            ],
+          ));
 }
