@@ -1,14 +1,12 @@
-2022/05/30-23:04:55.281 3dec Log #3: 2 ops saved to Table #11 OK
-2022/05/30-23:04:55.291 3dec Archiving C:\Users\Angel\AppData\Local\Temp\flutter_tools.7974ba0b\flutter_tools_chrome_device.5cf72b08\Default\Site Characteristics Database/000003.log: OK
-2022/05/30-23:04:55.293 3dec Log #6: 1 ops saved to Table #12 OK
-2022/05/30-23:04:55.294 3dec Archiving C:\Users\Angel\AppData\Local\Temp\flutter_tools.7974ba0b\flutter_tools_chrome_device.5cf72b08\Default\Site Characteristics Database/000006.log: OK
-2022/05/30-23:04:55.296 3dec Log #10: 1 ops saved to Table #13 OK
-2022/05/30-23:04:55.297 3dec Archiving C:\Users\Angel\AppData\Local\Temp\flutter_tools.7974ba0b\flutter_tools_chrome_device.5cf72b08\Default\Site Characteristics Database/000010.log: OK
-2022/05/30-23:04:55.297 3dec Table #4: 2 entries OK
-2022/05/30-23:04:55.297 3dec Table #7: 2 entries OK
-2022/05/30-23:04:55.297 3dec Table #8: 1 entries OK
-2022/05/30-23:04:55.298 3dec Table #11: 2 entries OK
-2022/05/30-23:04:55.298 3dec Table #12: 1 entries OK
-2022/05/30-23:04:55.298 3dec Table #13: 1 entries OK
-2022/05/30-23:04:55.303 3dec Archiving C:\Users\Angel\AppData\Local\Temp\flutter_tools.7974ba0b\flutter_tools_chrome_device.5cf72b08\Default\Site Characteristics Database/MANIFEST-000001: OK
-2022/05/30-23:04:55.307 3dec **** Repaired leveldb C:\Users\Angel\AppData\Local\Temp\flutter_tools.7974ba0b\flutter_tools_chrome_device.5cf72b08\Default\Site Characteristics Database; recovered 6 files; 1059 bytes. Some data may have been lost. ****
+2022/05/31-12:41:32.465 7b4 Reusing MANIFEST C:\Users\AJVF\AppData\Local\Temp\flutter_tools.6b2914ca\flutter_tools_chrome_device.d185962b\Default\Site Characteristics Database/MANIFEST-000001
+2022/05/31-12:41:32.466 7b4 Recovering log #22
+2022/05/31-12:41:32.466 7b4 Reusing old log C:\Users\AJVF\AppData\Local\Temp\flutter_tools.6b2914ca\flutter_tools_chrome_device.d185962b\Default\Site Characteristics Database/000022.log 
+2022/05/31-12:41:32.466 7b4 Delete type=0 #3
+2022/05/31-12:41:32.466 7b4 Delete type=2 #4
+2022/05/31-12:41:32.467 7b4 Delete type=0 #6
+2022/05/31-12:41:32.467 7b4 Delete type=2 #7
+2022/05/31-12:41:32.467 7b4 Delete type=2 #8
+2022/05/31-12:41:32.467 7b4 Delete type=0 #10
+2022/05/31-12:41:32.467 7b4 Delete type=0 #15
+2022/05/31-12:41:32.467 7b4 Delete type=2 #16
+2022/05/31-12:41:32.469 7b4 Delete type=2 #23

@@ -94,6 +94,7 @@ class _CamposState extends State<Campos> {
                     : Text('No hay datos, por favor digitelos'),
                 Padding(
                   padding: const EdgeInsets.only(top: 15.0, bottom: 5.0),
+                  
                   child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         primary: Color.fromRGBO(244, 48, 85, 1),
