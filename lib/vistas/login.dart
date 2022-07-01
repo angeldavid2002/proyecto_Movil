@@ -157,6 +157,7 @@ class _CamposState extends State<Campos> {
     );
   }
 
+
   bool validar() {
     bool validado = false;
     if (controluser.text.isEmpty || controlpassword.text.isEmpty) {
